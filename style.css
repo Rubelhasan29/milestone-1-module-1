@@ -10,10 +10,16 @@ header{
     background-color: antiquewhite;
     text-align: center;
 }
-.button:hover{
-    background-color: rgb(80, 153, 217);
+.button{
+    background-color:rgb(95, 95, 200);
     color: white;
-    border-radius: 5px;}
+    border-radius: 5px;
+    padding: 4px;
+    border: 1px solid black;
+text-decoration: none;}
+.button:hover{
+    color: red;
+}
 .img{
     width: 500px;
     padding-left: 250px;
